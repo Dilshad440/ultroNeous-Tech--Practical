@@ -1,16 +1,32 @@
 # ultroneous_practical
 
-A new Flutter project.
+ Practical Task by ultroNeous Technology (Ahmedabad);
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+# SDK's-----
+1. Flutter SDK- 3.10.5
+2. Dart SDK-  3.0.5)
 
-A few resources to get you started if this is your first Flutter project:
+# Plugin Used------
+1. flutter_bloc:- For state management using Cubit
+2. Equatable:- To compare the cubit/state
+3. flutter_toast:- ton display toast message
+4. dio:- For api calling 
+5. mockito:-  for unit test cases
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+# Tested Device------
+1. Simulator (iPhone14)
+2. Emulator (Pixel-5 API)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+# Conclusion-------
+1. I have tried my best to achieved the task by my own knowledge and skill to
+match the requirements. From my end it seems all the function that is supposed to
+be completed is dione, How ever you know you didn't share any Figma design so the 
+Ui might be different from you expectation.
+2. You have also asked me to write the unit test cases for the code, As you know I
+don't have that much Skills in unit test cases, However I tried to write it, it might
+not be correct as you expecting but tried to write it.
+
+
+
