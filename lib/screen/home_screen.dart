@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:ultroneous_practical/bloc/user/user_cubit.dart';
+import 'package:ultroneous_practical/utils/app_style.dart';
 import 'package:ultroneous_practical/utils/constant/global_constant.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -50,9 +51,7 @@ class _HomeScreenState extends State<HomeScreen> with SingleTickerProviderStateM
           indicatorWeight: 3,
           controller: _tabController,
           unselectedLabelColor: Colors.grey,
-          labelStyle: const TextStyle(
-            fontWeight: FontWeight.bold,
-          ),
+          labelStyle: AppTextStyle.title,
           tabs: GlobalConst.tabsLabel.map((e) => _tabs(e, totalFavUsers)).toList(),
         );
       },

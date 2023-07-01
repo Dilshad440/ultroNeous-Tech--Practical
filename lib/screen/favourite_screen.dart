@@ -12,8 +12,10 @@ class FavouriteScreen extends StatelessWidget {
     return Scaffold(body: BlocBuilder<UserCubit, UserState>(
       builder: (context, state) {
         final favouriteUser = state.favouriteUsers?.user ?? [];
-        if(favouriteUser.isEmpty){
-          return EmptyUserWidget();
+        if (favouriteUser.isEmpty) {
+          return const EmptyUserWidget(
+            message: "!!!\nNo users in favourite",
+          );
         }
         return ListView.builder(
           itemCount: favouriteUser.length,
